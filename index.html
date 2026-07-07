@@ -8,121 +8,136 @@
 </head>
 <body>
   <nav class="nav">
-    <a href="index.html" class="brand"><img src="media/ps-logo.png" alt="Project SkyScrub logo"></a>
+    <a class="brand" href="index.html"><img src="media/ps-logo.png" alt="Project SkyScrub logo"></a>
     <div class="nav-links">
-      <a href="#problem">Problem</a>
-      <a href="#solution">Solution</a>
-      <a href="#products">Products</a>
+      <a href="#mark1">Mark I</a>
+      <a href="#mark2">Mark II</a>
+      <a href="#crackscan">CrackScan</a>
       <a href="#journey">Journey</a>
-      <a href="#unsdg">Impact</a>
-      <a class="nav-btn" href="contact.html">LinkedIn</a>
+      <a href="#impact">Impact</a>
+      <a class="nav-cta" href="contact.html">LinkedIn</a>
     </div>
   </nav>
 
   <header class="hero reveal">
-    <div class="hero-text">
-      <p class="eyebrow">High-rise cleaning · Inspection · Safer heights</p>
-      <h1>Autonomous drone façade cleaning for the next generation of buildings.</h1>
-      <p>SkyScrub combines high-pressure façade cleaning, AI crack detection, LiDAR-assisted operation, and waterproofed drone hardware into one safer, smarter building maintenance platform.</p>
+    <div class="hero-copy">
+      <p class="eyebrow">Autonomous façade cleaning & inspection</p>
+      <h1>Cleaning at new heights.</h1>
+      <p>
+        SkyScrub is a drone-based façade cleaning and inspection platform combining high-pressure washing,
+        waterproofed electronics, LiDAR-ready operation, and AI-powered crack detection.
+      </p>
       <div class="actions">
-        <a class="btn primary" href="contact.html">Connect on LinkedIn</a>
-        <a class="btn ghost" href="#mark1">View Prototype</a>
-      </div>
-      <div class="stats-row">
-        <div><strong>110 bar</strong><span>Cleaning pressure</span></div>
-        <div><strong>≤25 kg</strong><span>MTOW target</span></div>
-        <div><strong>60 m</strong><span>Target height</span></div>
+        <a class="btn primary" href="#mark1">View Prototype</a>
+        <a class="btn secondary" href="contact.html">Connect on LinkedIn</a>
       </div>
     </div>
-    <div class="hero-card">
+    <div class="hero-visual">
       <img src="media/ps-logo.png" alt="SkyScrub PS logo">
     </div>
   </header>
 
   <main>
-    <section class="section" id="problem">
-      <p class="eyebrow">The Problem</p>
-      <h2>Traditional façade cleaning is slow, expensive, and exposes workers to height risk.</h2>
-      <div class="grid three reveal">
-        <article><h3>Height Risk</h3><p>Rope access and scaffolding place workers in hazardous high-rise environments during façade maintenance.</p></article>
-        <article><h3>Setup Time</h3><p>Conventional methods require manpower, staging, permits, and long preparation windows.</p></article>
-        <article><h3>Limited Data</h3><p>Cleaning and inspection are often separated, making defect tracking slower and less connected.</p></article>
+    <section class="intro reveal">
+      <h2>More than a final year project. A complete building maintenance concept.</h2>
+      <p>
+        From structural design and fabrication to waterproofing, flight testing, and software integration,
+        SkyScrub was developed as a practical engineering platform for safer façade maintenance.
+      </p>
+    </section>
+
+    <section class="feature-grid reveal">
+      <article><span>110</span><p>bar cleaning pressure target</p></article>
+      <article><span>6</span><p>motor hexacopter configuration</p></article>
+      <article><span>60m</span><p>target high-rise operating height</p></article>
+      <article><span>AI</span><p>CrackScan defect detection</p></article>
+    </section>
+
+    <section class="section split" id="problem">
+      <div class="section-copy reveal">
+        <p class="eyebrow">The Problem</p>
+        <h2>Traditional façade cleaning is risky, slow, and labour-intensive.</h2>
+        <p>
+          Conventional façade maintenance often depends on scaffolding, rope access, or gondolas. These methods
+          increase setup time, manpower dependency, and worker exposure to height-related risks.
+        </p>
+      </div>
+      <div class="cards reveal">
+        <article><h3>Worker Safety</h3><p>Reduces reliance on manual work at height.</p></article>
+        <article><h3>Setup Efficiency</h3><p>Minimises the need for heavy temporary access systems.</p></article>
+        <article><h3>Inspection Data</h3><p>Combines cleaning with AI-assisted defect records.</p></article>
       </div>
     </section>
 
-    <section class="section split" id="solution">
-      <div>
+    <section class="section split reverse" id="solution">
+      <div class="cards reveal">
+        <article><h3>Ground-fed Cleaning</h3><p>Water is supplied from the ground to reduce onboard mass.</p></article>
+        <article><h3>Waterproof Protection</h3><p>Electronics are protected from mist and cleaning spray.</p></article>
+        <article><h3>AI Inspection</h3><p>CrackScan supports crack detection and record keeping.</p></article>
+      </div>
+      <div class="section-copy reveal">
         <p class="eyebrow">The Solution</p>
-        <h2>One drone platform. Cleaning, inspection, and reporting in a single workflow.</h2>
-        <p>SkyScrub uses a hexacopter platform connected to a ground-based pressure washer. The drone carries the nozzle, sensors, waterproofing shell, and CrackScan AI system while water is supplied from the ground to reduce onboard mass.</p>
-      </div>
-      <div class="stack reveal">
-        <div><span>01</span>Ground-based high-pressure pump</div>
-        <div><span>02</span>Hexacopter stability and redundancy</div>
-        <div><span>03</span>Waterproofed electronics enclosure</div>
-        <div><span>04</span>AI-assisted crack detection records</div>
-      </div>
-    </section>
-
-    <section class="section" id="technology">
-      <p class="eyebrow">Core Technology</p>
-      <h2>Built for real façade operations.</h2>
-      <div class="grid four reveal">
-        <article><span class="icon">🚁</span><h3>Hexacopter</h3><p>Six-motor configuration improves load distribution and redundancy.</p></article>
-        <article><span class="icon">💧</span><h3>Pressure Washing</h3><p>Ground-supplied water supports cleaning while keeping onboard mass lower.</p></article>
-        <article><span class="icon">🛡️</span><h3>Waterproofing</h3><p>Hard-shell protection and venting protect electronics from water mist.</p></article>
-        <article><span class="icon">🧠</span><h3>CrackScan</h3><p>AI object detection records crack evidence for reporting workflows.</p></article>
-      </div>
-    </section>
-
-    <section class="section" id="products">
-      <p class="eyebrow">Products</p>
-      <h2>Three products. One maintenance ecosystem.</h2>
-      <div class="grid three reveal">
-        <article><h3>SkyScrub Mark I</h3><p>Working prototype for façade cleaning, waterproofing validation, and flight testing.</p><a href="contact.html">Request Quote</a></article>
-        <article><h3>SkyScrub Mark II</h3><p>Future platform with improved endurance, modularity, LiDAR integration, and service-ready design.</p><a href="contact.html">Request Quote</a></article>
-        <article><h3>CrackScan</h3><p>AI crack detection software with records, screenshots, location fields, and Excel export workflow.</p><a href="contact.html">Request Quote</a></article>
+        <h2>One platform. Cleaning, inspection, and documentation.</h2>
+        <p>
+          SkyScrub uses a hexacopter platform carrying the nozzle, sensors, waterproofing enclosure,
+          and CrackScan system while the pressure washer remains ground-based.
+        </p>
       </div>
     </section>
 
     <section class="showcase" id="mark1">
-      <div>
+      <div class="showcase-copy reveal">
         <p class="eyebrow">Prototype</p>
         <h2>SkyScrub Mark I.</h2>
-        <p>The working prototype developed to validate drone-based façade cleaning, inspection support, and real-world integration.</p>
+        <p>
+          The first fully integrated prototype developed to validate high-pressure façade cleaning,
+          waterproofing, structural integrity, and AI-assisted inspection.
+        </p>
       </div>
-      <div class="carousel reveal" data-carousel>
+      <div class="carousel reveal" data-carousel data-autoplay="true">
         <button class="carousel-btn prev">‹</button>
-        <div class="slides"><div class="slide active"><img src="media/mark1-1.png" alt="SkyScrub Mark I image"></div>
-<div class="slide"><img src="media/mark1-2.png" alt="SkyScrub Mark I image"></div>
-<div class="slide"><img src="media/mark1-3.png" alt="SkyScrub Mark I image"></div>
-<div class="slide"><img src="media/mark1-4.jpeg" alt="SkyScrub Mark I image"></div>
-<div class="slide"><img src="media/mark1-5.jpeg" alt="SkyScrub Mark I image"></div>
-<div class="slide"><img src="media/mark1-6.jpeg" alt="SkyScrub Mark I image"></div></div>
+        <div class="slides">
+          <div class="slide active">
+            <img src="media/mark1-1.jpeg" alt="SkyScrub Mark I prototype photo 1">
+          </div>
+          <div class="slide ">
+            <img src="media/mark1-2.jpeg" alt="SkyScrub Mark I prototype photo 2">
+          </div>
+          <div class="slide ">
+            <img src="media/mark1-3.jpeg" alt="SkyScrub Mark I prototype photo 3">
+          </div>
+        </div>
         <button class="carousel-btn next">›</button>
         <div class="dots"></div>
       </div>
     </section>
 
-    <section class="showcase" id="mark2">
-      <div>
+    <section class="showcase mark2" id="mark2">
+      <div class="showcase-copy reveal">
         <p class="eyebrow">Next Generation</p>
         <h2>SkyScrub Mark II.</h2>
-        <p>A refined future concept focused on cleaner packaging, better waterproofing, modular payloads, LiDAR support, and improved serviceability.</p>
+        <p>
+          Mark II represents the next development pathway: improved endurance, cleaner packaging,
+          modular payloads, LiDAR integration, and service-ready waterproofing.
+        </p>
       </div>
-      <div class="concept-card reveal">
-        <h3>Mark II Concept</h3>
-        <p>LiDAR · Modular payloads · Extended endurance · Service-ready waterproofing</p>
+      <div class="roadmap reveal">
+        <article><span>01</span><h3>Improved Endurance</h3><p>Optimised packaging and weight distribution.</p></article>
+        <article><span>02</span><h3>Modular Payloads</h3><p>Cleaner access to sensors, nozzle, and electronics.</p></article>
+        <article><span>03</span><h3>LiDAR Support</h3><p>Assisted altitude and obstacle awareness.</p></article>
       </div>
     </section>
 
     <section class="showcase" id="crackscan">
-      <div>
+      <div class="showcase-copy reveal">
         <p class="eyebrow">Software</p>
         <h2>CrackScan.</h2>
-        <p>AI-powered crack detection software that stores inspection records with screenshots, timestamps, and location fields.</p>
+        <p>
+          CrackScan identifies cracks through object detection and stores inspection evidence with screenshots,
+          time, date, and location fields for future review.
+        </p>
       </div>
-      <div class="carousel reveal" data-carousel>
+      <div class="carousel reveal" data-carousel data-autoplay="true">
         <button class="carousel-btn prev">‹</button>
         <div class="slides">
           <div class="slide active"><img src="media/crackscan-live.jpeg" alt="CrackScan live detection"></div>
@@ -134,45 +149,47 @@
     </section>
 
     <section class="journey" id="journey">
-      <div>
+      <div class="journey-copy reveal">
         <p class="eyebrow">The Journey</p>
         <h2>From Concept to Prototype.</h2>
-        <p>Follow the engineering journey behind SkyScrub — from research and CAD modelling to manufacturing, waterproofing, flight testing, and AI crack detection.</p>
+        <p>
+          Follow the engineering journey behind SkyScrub — from early concepts and CAD modelling
+          to manufacturing, waterproofing, flight testing, and AI-powered crack detection.
+        </p>
       </div>
-      <div class="journey-list reveal">
-        <div><span>01</span>Problem statement and regulatory context</div>
-        <div><span>02</span>Hexacopter layout and propulsion selection</div>
-        <div><span>03</span>CFRP structural deck and landing gear fabrication</div>
-        <div><span>04</span>Waterproofing, CrackScan, and LiDAR integration</div>
-        <div><span>05</span>Flight checks, testing, and iteration</div>
-      </div>
-      <div class="video-box reveal">
+      <div class="video-wrap reveal">
         <video controls preload="metadata">
           <source src="media/skyscrub-demo.mp4" type="video/mp4">
         </video>
       </div>
     </section>
 
-    <section class="metrics reveal">
-      <div><strong>110</strong><span>bar pressure</span></div>
-      <div><strong>6</strong><span>motor platform</span></div>
-      <div><strong>AI</strong><span>crack detection</span></div>
-      <div><strong>60m</strong><span>target height</span></div>
-    </section>
-
-    <section class="section" id="unsdg">
-      <p class="eyebrow">UNSDG Alignment</p>
-      <h2>Designed for safer, smarter, and more sustainable maintenance.</h2>
-      <div class="sdg-grid reveal">
-        <article><img src="media/sdg-8.png" alt="UNSDG 8"><h3>Decent Work & Economic Growth</h3><p>Reduces worker exposure to fall-related risks by minimising reliance on scaffolds and rope access.</p></article>
-        <article><img src="media/sdg-9.png" alt="UNSDG 9"><h3>Industry, Innovation & Infrastructure</h3><p>Promotes drone-based façade cleaning and AI-assisted inspection as an innovative built environment solution.</p></article>
-        <article><img src="media/sdg-12.png" alt="UNSDG 12"><h3>Responsible Consumption & Production</h3><p>Supports targeted cleaning to reduce overspray and improve water-use efficiency.</p></article>
+    <section class="section" id="technology">
+      <p class="eyebrow reveal">Engineering Highlights</p>
+      <h2 class="reveal">Designed for real-world façade operations.</h2>
+      <div class="tech-grid reveal">
+        <article>🚁<h3>Hexacopter</h3><p>Six-motor configuration for stability and redundancy.</p></article>
+        <article>💧<h3>Pressure Washing</h3><p>Ground-based high-pressure water delivery.</p></article>
+        <article>🛡️<h3>Waterproofing</h3><p>Hard-shell protection for critical electronics.</p></article>
+        <article>📡<h3>LiDAR-ready</h3><p>Designed for future altitude and obstacle sensing.</p></article>
+        <article>🧠<h3>AI Detection</h3><p>CrackScan object detection for defect records.</p></article>
+        <article>📊<h3>Inspection Records</h3><p>Data-ready workflow for future reporting.</p></article>
       </div>
     </section>
 
-    <section class="contact-strip">
+    <section class="section" id="impact">
+      <p class="eyebrow reveal">UNSDG Alignment</p>
+      <h2 class="reveal">Designed for safer, smarter, and more sustainable maintenance.</h2>
+      <div class="sdg-grid reveal">
+        <article><img src="media/sdg-8.png" alt="UNSDG 8"><h3>Decent Work & Economic Growth</h3><p>Supports safer work by reducing reliance on rope access and scaffolds.</p></article>
+        <article><img src="media/sdg-9.png" alt="UNSDG 9"><h3>Industry, Innovation & Infrastructure</h3><p>Promotes drone-based cleaning and AI inspection in the built environment.</p></article>
+        <article><img src="media/sdg-12.png" alt="UNSDG 12"><h3>Responsible Consumption & Production</h3><p>Supports more targeted cleaning and reduced overspray.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-band reveal">
       <div>
-        <p class="eyebrow">LinkedIn Contact</p>
+        <p class="eyebrow">Contact</p>
         <h2>Interested in SkyScrub?</h2>
         <p>Connect on LinkedIn for collaborations, portfolio review, demo discussions, or future development opportunities.</p>
       </div>
