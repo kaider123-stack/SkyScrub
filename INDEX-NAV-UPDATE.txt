@@ -1,0 +1,10 @@
+ADD THIS LINK TO THE <div class="links"> NAVIGATION IN index.html:
+
+<a href="support.html">Support & Training</a>
+
+Recommended placement: immediately before the LinkedIn pill.
+
+Your updated final navigation lines should include:
+<a href="#partners">Partners</a>
+<a href="support.html">Support & Training</a>
+<a class="pill" href="contact.html">LinkedIn</a>
