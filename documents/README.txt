@@ -1,1 +1,1 @@
-Upload final SkyScrub PDF manuals here when ready.
+Place future manuals here.
