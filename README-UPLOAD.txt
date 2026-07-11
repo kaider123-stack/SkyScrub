@@ -1,17 +1,13 @@
-SKYSCRUB CLEAN HOMEPAGE UPDATE
+SKYSCRUB WEBSITE UPDATE — SENSOR CALIBRATION VIDEO
 
 1. Extract this ZIP.
-2. Upload index.html, style.css, script.js and the four new image files into the ROOT of your SkyScrub repository.
-3. Keep the existing media folder files already in GitHub. When uploading, merge this ZIP's media folder with your existing media folder.
-4. Replace the old index.html, style.css and script.js when GitHub asks.
-5. Do not upload the ZIP itself.
-6. Wait for the GitHub Pages deployment green tick, then press Ctrl + F5.
+2. Open the folder named SkyScrub-homepage-clean.
+3. Upload ALL contents of that folder to the ROOT of your GitHub SkyScrub repository.
+4. Replace index.html and style.css when GitHub asks.
+5. Merge the media folder and upload the new videos folder.
+6. Commit the changes and wait for the green GitHub Pages deployment tick.
+7. Refresh https://kaider123-stack.github.io/SkyScrub/.
 
-This version:
-- puts Support & Resources directly on the homepage
-- removes the need for a separate support page
-- uses only three clean resource cards
-- adds the four new carousel images
-- updates every homepage LinkedIn button to the Project SkyScrub profile
-
-Manuals and tutorial links are currently marked Coming Soon. Later, replace the placeholder href in index.html with your PDF/video file path.
+The tutorial appears in the existing Support & Resources section.
+Video path: videos/sensor-calibration.mp4
+Poster path: media/sensor-calibration-thumbnail.jpeg
