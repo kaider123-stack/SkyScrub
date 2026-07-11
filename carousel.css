@@ -1,0 +1,15 @@
+/* SkyScrub homepage product carousel */
+.sky-carousel{position:relative;max-width:1280px;margin:0 auto 90px;overflow:hidden;border-radius:30px;background:#07101b;border:1px solid rgba(255,255,255,.12);box-shadow:0 30px 90px rgba(0,0,0,.35)}
+.sky-carousel-track{display:flex;transition:transform .7s cubic-bezier(.22,.61,.36,1)}
+.sky-slide{position:relative;min-width:100%;aspect-ratio:16/9;background:#07101b}
+.sky-slide img{width:100%;height:100%;display:block;object-fit:cover}
+.sky-slide:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,rgba(2,7,13,.88) 100%)}
+.sky-caption{position:absolute;z-index:2;left:clamp(22px,5vw,64px);right:clamp(22px,5vw,64px);bottom:clamp(24px,5vw,56px);color:white}
+.sky-caption span{display:block;color:#39bdf8;text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:900;margin-bottom:9px}
+.sky-caption h2{margin:0 0 9px;font-size:clamp(1.65rem,4vw,4rem);line-height:1.04}
+.sky-caption p{max-width:760px;margin:0;color:#d8e5f2;line-height:1.55;font-size:clamp(.9rem,1.5vw,1.08rem)}
+.sky-arrow{position:absolute;z-index:3;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(3,10,18,.62);color:white;font-size:1.5rem;cursor:pointer;backdrop-filter:blur(12px)}
+.sky-arrow:hover{background:#39bdf8;color:#04101a}.sky-prev{left:18px}.sky-next{right:18px}
+.sky-dots{position:absolute;z-index:3;left:50%;bottom:17px;transform:translateX(-50%);display:flex;gap:8px}
+.sky-dot{width:9px;height:9px;padding:0;border:0;border-radius:999px;background:rgba(255,255,255,.45);cursor:pointer;transition:.25s}.sky-dot.active{width:30px;background:#39bdf8}
+@media(max-width:700px){.sky-carousel{border-radius:20px;margin-bottom:55px}.sky-slide{aspect-ratio:4/5}.sky-arrow{width:40px;height:40px}.sky-caption{bottom:42px}.sky-caption p{display:none}}

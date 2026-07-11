@@ -1,0 +1,27 @@
+PROJECT SKYSCRUB WEBSITE UPDATE
+
+1. Extract this ZIP.
+2. Upload these items to the root of the existing SkyScrub GitHub repository:
+   - support.html
+   - support.css
+   - support.js
+   - carousel.css
+   - carousel.js
+   - media/carousel/ folder
+   - documents/ folder
+
+3. In index.html, add these two lines inside <head> / before </body>:
+   <link rel="stylesheet" href="carousel.css">
+   <script src="carousel.js" defer></script>
+
+4. Open HOMEPAGE-CAROUSEL.html and copy its section into index.html where the old carousel currently sits.
+
+5. Add this navigation link wherever the main menu appears:
+   <a href="support.html">Support & Training</a>
+
+6. Replace the existing LinkedIn destination with:
+   https://www.linkedin.com/in/project-skyscrub-a4782031a/
+
+7. Manuals can be added later. Upload PDFs to /documents and replace each Coming Soon span in support.html with a link. Keeping the same PDF filename lets you update a manual later without changing the website link.
+
+IMPORTANT: Upload the extracted files, not the ZIP itself. This package intentionally does not overwrite index.html because the original homepage file was not available in this chat.
