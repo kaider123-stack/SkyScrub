@@ -1,0 +1,40 @@
+SKYSCRUB — DESKTOP UPLOAD GUIDE
+
+FILES INCLUDED
+- index.html
+- style.css
+- script.js
+- media/ (new carousel images and video thumbnail)
+- videos/sensor-calibration.mp4
+- documents/ placeholder folder
+
+OPTION A — GITHUB WEBSITE (EASIEST)
+1. Extract this ZIP.
+2. Open: https://github.com/kaider123-stack/SkyScrub
+3. Click Add file > Upload files.
+4. Open the extracted SkyScrub-ready-to-upload folder.
+5. Select ALL files and folders inside it. Do not upload the ZIP itself.
+6. Drag them into GitHub's upload area.
+7. Confirm replacement of index.html, style.css, and script.js.
+8. Enter a commit message such as: Add sensor calibration training video.
+9. Click Commit changes.
+10. Open the Actions tab and wait for a green tick.
+11. Open https://kaider123-stack.github.io/SkyScrub/
+12. Press Ctrl+F5 to force-refresh.
+
+OPTION B — GITHUB DESKTOP
+1. Extract this ZIP.
+2. Open GitHub Desktop and select the SkyScrub repository.
+3. Click Repository > Show in Explorer.
+4. Copy ALL contents from the extracted folder into the repository folder.
+5. Choose Replace files when prompted.
+6. Return to GitHub Desktop.
+7. Add a summary such as: Add sensor calibration training video.
+8. Click Commit to main, then Push origin.
+9. Wait for the Pages deployment green tick and press Ctrl+F5 on the live site.
+
+CHECKS
+- index.html must be at the repository root.
+- videos/sensor-calibration.mp4 must exist exactly with that spelling.
+- media/sensor-calibration-thumbnail.jpeg must exist exactly with that spelling.
+- Do not put the files inside an extra SkyScrub-ready-to-upload folder in the repository.
