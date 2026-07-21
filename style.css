@@ -8,3 +8,5 @@
 #resources .resource-grid{grid-template-columns:repeat(2,minmax(280px,380px));justify-content:center;max-width:820px}
 #resources .resource-card{width:100%}
 @media(max-width:900px){#resources .resource-grid{grid-template-columns:1fr;max-width:520px}}
+
+.crackscan-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:28px}.download-meta{color:#91a2b7;font-size:.9rem;font-weight:700}@media(max-width:900px){.crackscan-actions{justify-content:flex-start}}
